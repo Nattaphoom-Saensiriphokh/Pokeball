@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/repo/frontend/pokemon-app-master/src/app/pokemon/%5Bpokemonname%5D/page.tsx"],"sourcesContent":["\"use client\";\nimport { use } from \"react\";\n\nexport default function PokemonDetailPage({\n  params,\n}: {\n  params: Promise<{ pokemonname: string }>;\n}) {\n  // ดึงค่าพารามิเตอร์ pokemonname จาก URL\n  const { pokemonname } = use(params);\n  return (\n    <div>\n      <h1>{pokemonname}</h1>\n    </div>\n  );\n}\n"],"names":["PokemonDetailPage","params","pokemonname"],"mappings":";;;;;AACA;AADA;;;AAGe,SAASA,kBAAkB,EACxCC,MAAM,EAGP;IACC,wCAAwC;IACxC,MAAM,EAAEC,WAAW,EAAE,GAAG,IAAA,wOAAG,EAACD;IAC5B,qBACE,0QAAC;kBACC,cAAA,0QAAC;sBAAIC;;;;;;;;;;;AAGX"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":["file:///D:/repo/frontend/pokemon-app-master/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,+IACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
